@@ -1,0 +1,3 @@
+ANTIBODY_COMPLETION=${0:A:h}
+source ${ANTIBODY_COMPLETION}/_antibody
+fpath+=("${ANTIBODY_COMPLETION}")

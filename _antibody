@@ -2,7 +2,7 @@
 
 _antibody() {
   typeset -A opt_args
-  local line
+  local state line
 
   _arguments -C \
     "--help[Show context-sensitive help]" \
@@ -40,3 +40,4 @@ _antibody() {
 }
 
 compdef _antibody antibody
+alias antb="antibody"
